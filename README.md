@@ -13,8 +13,27 @@ This project showcases a list of featured speakers for an event using Vanilla Ja
 - **CSS (SASS)**: For styling the page and creating a responsive layout.
 - **Vanilla JavaScript**: For interactivity, including the dynamic rendering of speakers and handling the modal behavior.
 
-## Getting Started![Macbook-Air-672dd7e65df1602c5cdc664e--jade-moxie-fd86b7 netlify app](https://github.com/user-attachments/assets/8f872e71-037c-446b-8c71-667eb9401de4)
-![Macbook-Air-127 0 0 1](https://github.com/user-attachments/assets/da06c6ed-1f6a-4d8c-99c7-e22fc1e4e03d)
+## Getting Started
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/473ed089-6629-4761-8e07-25e6a7f9ccac" alt="Macbook-Air-1" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f7730ea5-cf77-4660-bf7e-81df8e8b38f5" alt="Macbook-Air-2" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/44f6c267-2652-49e1-a7a1-75836f82ed96" alt="Galaxy-Tab-S7" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fe0e8288-fa1b-48b4-bca4-1b076e989ea3" alt="Galaxy-Z-Flip3" width="400"/>
+    </td>
+  </tr>
+</table>
+
 
 
 1. Clone the repository:
