@@ -32,8 +32,11 @@ const renderSpeakers = () => {
   List.innerHTML = '';
   List.appendChild(prevButton); 
   List.appendChild(nextButton); 
-  
-  speakers.forEach(speaker => {
+
+  const isMobile = window.innerWidth < 768;
+  const speakersToShow = isMobile ? [speakers[0]] : speakers
+
+  speakersToShow.forEach(speaker => {
     const card = document.createElement('div');
     card.classList.add('speaker-card');
     card.setAttribute('data-speaker', speaker.name);
@@ -54,6 +57,7 @@ const renderSpeakers = () => {
 
 
 renderSpeakers()
+window.addEventListener('resize', renderSpeakers);
 nextButton.addEventListener('click', () => {
   let user = speakers.shift();
   speakers.push(user);

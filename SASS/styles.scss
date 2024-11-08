@@ -45,7 +45,8 @@ body {
       margin-bottom: 50px;
       font-family: $font-primary;
       font-size: 18px;
-      line-height: 15px;
+      // line-height: 15px;
+      padding: 0 20px;
       font-weight: 300;
     }
   }
@@ -71,8 +72,8 @@ body {
   &-navigation {
     &--prev,
     &--next {
-      width: 36px;
-      height: 36px;
+      // width: 36px;
+      // height: 36px;
     }
 
     &--prev {
@@ -90,7 +91,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
-    width: 100%;
+    // width: 100%;
     height: 280px;
 
     &:hover {
@@ -137,7 +138,7 @@ body {
     background-color: $color-white;
     border-radius: $border-radius-small;
     box-shadow: $box-shadow-large;
-    width: 70%;
+    width: 68%;
     position: relative;
     margin: auto;
     height: 170px;
@@ -156,6 +157,7 @@ body {
 
   &__info {
     line-height: 14px;
+    margin-left: 14px;
   }
 
   &__company {
@@ -243,12 +245,13 @@ body {
   margin-left: 30%;
   margin-top: 30px;
   position: relative;
-  top: -40px;
+  top: -90px;
 }
 
 // Media queries
 @media (max-width: 760px) {
   .featured-speakers__header-title {
+    padding: 20px;
     font-size: 1.8rem;
   }
 
@@ -262,7 +265,7 @@ body {
     &--prev,
     &--next {
       // display: none;
-      margin: auto;
+      // margin: auto;
     }
   }
 
@@ -313,13 +316,16 @@ body {
   .speaker-list {
     width: 90%;
     padding: 10px;
+  
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 8% 60% 8%;
+    justify-content: center;
+    align-items: center;
   }
 
-  .speaker-card {
-    max-width: 90%;
-  }
+  // .speaker-card {
+  //   max-width: 90%;
+  // }
 
   .speaker-details {
     &__container {
@@ -338,8 +344,19 @@ body {
     }
   }
 
-  .arrow {
-    margin-left: 10%;
-    margin-top: -30px
+  .last-button{
+    width: 205px;
+    height: 38px;
+    border-radius: $border-radius-medium;
+    font-size: 12px;
   }
+  .arrow {
+    margin-left: 20%;
+    margin-top: -40px
+  }
+  .last-text{
+    font-size: 12px;
+    width: 180px;
+  }
+ 
 }
